@@ -1,0 +1,11 @@
+{
+    "require": {
+        "silex/silex": "~2.0",
+        "doctrine/dbal": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sirolad\\": "app"
+        }
+    }
+}
