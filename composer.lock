@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "691c604ece80da610704e030b73c5a35",
-    "content-hash": "2b9ddda98775b394f0aa73e356def40b",
+    "hash": "aa875456e4199b1b441b9fa63fd8c0a4",
+    "content-hash": "1594430ffab006433ceec07f58c55759",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -596,6 +596,59 @@
                 "watermark"
             ],
             "time": "2017-02-04 10:37:19"
+        },
+        {
+            "name": "moust/silex-cache",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moust/silex-cache-service-provider.git",
+                "reference": "83fafcb7b9f382bc1f76dbe6ec30f4a1161822ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moust/silex-cache-service-provider/zipball/83fafcb7b9f382bc1f76dbe6ec30f4a1161822ba",
+                "reference": "83fafcb7b9f382bc1f76dbe6ec30f4a1161822ba",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "pimple/pimple": "~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.5",
+                "silex/silex": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Moust\\Silex": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Quentin Aupetit",
+                    "email": "qaupetit@gmail.com"
+                }
+            ],
+            "description": "Cache service provider for Silex application",
+            "keywords": [
+                "cache",
+                "library",
+                "provider",
+                "service",
+                "silex"
+            ],
+            "time": "2016-07-18 16:58:47"
         },
         {
             "name": "pimple/pimple",
